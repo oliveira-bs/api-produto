@@ -59,7 +59,7 @@ jobs:
           # Acceptable values: kubeconfig or service-account
           method: kubeconfig
           # Kubernetes Config
-          kubeconfig: ${{secrets.K8S_CONFING}}
+          kubeconfig: ${{secrets.K8S_CONFIG}}
 
       - name: Deploy MongoDB
         uses: Azure/k8s-deploy@v1.3
