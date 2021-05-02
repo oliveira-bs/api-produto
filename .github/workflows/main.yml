@@ -45,6 +45,6 @@ jobs:
           # Path to the Dockerfile
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             oliveirabs/api-bootcamp-produto:latest
             oliveirabs/api-bootcamp-produto:${{github.run_number}}
